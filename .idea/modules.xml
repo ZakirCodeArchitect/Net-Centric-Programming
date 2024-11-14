@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Lecture Programs.iml" filepath="$PROJECT_DIR$/.idea/Lecture Programs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture3&amp;4_programs/Lecture3&amp;4_programs.iml" filepath="$PROJECT_DIR$/Lecture3&amp;4_programs/Lecture3&amp;4_programs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture5_Programs/Lecture5_Programs.iml" filepath="$PROJECT_DIR$/Lecture5_Programs/Lecture5_Programs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture6_Programs/Lecture6_Programs.iml" filepath="$PROJECT_DIR$/Lecture6_Programs/Lecture6_Programs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture7_programs/Lecture7_programs.iml" filepath="$PROJECT_DIR$/Lecture7_programs/Lecture7_programs.iml" />
+    </modules>
+  </component>
+</project>
