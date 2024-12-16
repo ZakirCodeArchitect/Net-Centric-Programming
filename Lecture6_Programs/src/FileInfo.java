@@ -7,8 +7,11 @@ class FileInfo {
     }
     public static void main(String args[]){
         String fi;
+
         Scanner in= new Scanner(System.in);
+
         fi=in.next();
+
         File f1 = new File(fi);
         show(f1.getName()+(f1.exists()?" exists" : " does not exist"));
         show ("File size   :"+f1.length()+" bytes");

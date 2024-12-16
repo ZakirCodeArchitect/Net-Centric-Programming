@@ -17,13 +17,14 @@ public class CopyFileTV_ex {
             int bytesRead;
             while ((bytesRead = fin.read(buffer)) > 0) {
                 fout.write(buffer, 0, bytesRead);
+                System.out.println("bytesRead : " + bytesRead);
             }
 
             // Check the file size and perform additional read/write
-            int size = fin.available();
-            byte[] b = new byte[size];
-            fin.read(b, 0, size);
-            fout.write(b, 0, size);
+//            int size = fin.available();
+//            byte[] b = new byte[size];
+//            fin.read(b, 0, size);
+//            fout.write(b, 0, size);
 
         } catch (IOException e) {
             e.printStackTrace();

@@ -7,6 +7,7 @@ class WriteDataToFile {
             FileOutputStream fos = new FileOutputStream("aa.txt");
             fos.write(b,0,b.length);
             System.out.println(b.length + " bytes are written!");
+
         }  catch(IOException e) {
             System.out.println("Error creating file!");
         }

@@ -31,6 +31,7 @@ public class StudentRecordReader {
         try {
             StudentRecordReader reader = new StudentRecordReader("students.txt");
             List<Student> listStudent = reader.readAll();
+
             for (Student student : listStudent) {
                 System.out.print(student.getName() + "\t");
                 System.out.print(student.getGender() + "\t");
