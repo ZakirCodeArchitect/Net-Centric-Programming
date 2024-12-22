@@ -1,7 +1,7 @@
 import java.io.*;
 class ReadFromFile {
     public static void main(String args[]) throws 	Exception {
-        InputStream f = new FileInputStream("a.txt");
+        FileInputStream f = new FileInputStream("a.txt");
 
         int size= f.available();
 

@@ -1,6 +1,6 @@
 class SimpleIO {
     public static void main(String args[])	{
-        byte bytearr[] = new byte[30];
+        byte[] bytearr = new byte[30];
         try 			{
             System.out.println("Enter a line: ");
             // Reads up to len bytes of data from the //input stream into an array of bytes

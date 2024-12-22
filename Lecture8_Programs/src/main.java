@@ -9,8 +9,7 @@ public class main{
         PrintWriter outputStream = null;
         try
         {
-            outputStream =
-                    new PrintWriter(new FileOutputStream("out.txt"));
+            outputStream = new PrintWriter(new FileOutputStream("out.txt"));
         }
         catch(FileNotFoundException e)
         {
@@ -20,7 +19,8 @@ public class main{
         }
 
         System.out.println("Enter three lines of text:");
-        String line = null; int count;
+        String line = null;
+        int count;
         Scanner keyboard = new Scanner(System.in);
         for (count = 1; count <= 3; count++)
         {

@@ -6,6 +6,7 @@ public class Read_Write_ex {
         for (int i = 0; i < strs.length; i++) {
             fw.write(strs[i] + "\r\n");
         }
+
         fw.close();
     }
 }

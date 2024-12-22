@@ -5,7 +5,7 @@ public class AccessCharacter
     {
         int c;
         RandomAccessFile inFile = new  RandomAccessFile("test.txt","r");
-        int pos = 4;
+        int pos = 6;    
         try
         {
             inFile.seek(pos);

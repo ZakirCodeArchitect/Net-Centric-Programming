@@ -6,8 +6,12 @@ public class BuffInput {
         try {
             for (int i=0; i<=bi.available(); i++ ){
                 int x = bi.read();
-                System.out.print((char)x + " ");}
-        } catch (Exception e) { e.printStackTrace();
+                System.out.print((char)x + " ");
+            }
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
         }
     }
 }

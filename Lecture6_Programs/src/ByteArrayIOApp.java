@@ -21,7 +21,7 @@ public class ByteArrayIOApp {
 
         int inBytes = inStream.available();
 
-        System.out.println("inStream has" + inBytes + "available bytes");
+        System.out.println("inStream has " + inBytes + " available bytes");
 
         byte inBuf[] = new byte[inBytes];
 

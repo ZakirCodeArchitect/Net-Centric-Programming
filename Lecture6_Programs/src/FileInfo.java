@@ -11,7 +11,7 @@ class FileInfo {
         Scanner in= new Scanner(System.in);
 
         fi=in.next();
-
+//        System.out.println(in);
         File f1 = new File(fi);
         show(f1.getName()+(f1.exists()?" exists" : " does not exist"));
         show ("File size   :"+f1.length()+" bytes");

@@ -20,6 +20,10 @@ public class CopyFileTV_ex {
                 System.out.println("bytesRead : " + bytesRead);
             }
 
+//            int size = fin.available();
+//            fin.read(buffer,0,size);
+//            fout.write(buffer,0,size);
+
             // Check the file size and perform additional read/write
 //            int size = fin.available();
 //            byte[] b = new byte[size];

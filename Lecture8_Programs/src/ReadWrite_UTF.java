@@ -10,9 +10,12 @@ public class ReadWrite_UTF {
             wri.close();
             InputStreamReader rea = new InputStreamReader(
                     new FileInputStream("b.txt"), "UTF-8");
-            char[] chars2 = new char[50];
-            rea.read(chars2); // read
-            for (int i=0; i< chars2.length; i++)
+            char[] chars2 = new char[10];
+            rea.read(chars2); //
+
+            String str = new String(chars2);
+            System.out.println(str);
+            for (int i=0; i<chars2.length; i++)
                 System.out.print(chars2[i]);
         } catch (IOException e) {
             System.out.println(e.toString());   }
