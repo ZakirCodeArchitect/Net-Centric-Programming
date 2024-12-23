@@ -8,7 +8,7 @@ public class ThreadInterruptExample implements Runnable {
                 Thread.sleep(2000);
                 continue;
             } catch (InterruptedException ex) {
-                System.out.println("I'm resumed");
+                System.out.println("I am resumed");
             }
         }
     }
@@ -21,7 +21,7 @@ public class ThreadInterruptExample implements Runnable {
             Thread.sleep(5000);
             t1.interrupt();
         } catch (InterruptedException ex) {
-            // do nothing
+            System.out.println(ex);
         }
     }
 }
